@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+      padding: 0;
+      border: none;
+      background: none;
+      cursor: pointer;
+      outline: none;
+    }
+
+      </style>
+
+
+
+<script>
+  function changeColor() {
+  var button = document.getElementById("cloud-button");
+  var path = button.querySelector("path");
+  path.style.fill = "blue";
+    }
+  
+  </script>
+
+
+</head>
+<body>
+    <button id="cloud-button" onclick="changeColor()">
+        <svg height="100" width="200" viewBox="0 0 200 100">
+        <path d="M 25,60 a 20,20 1 0,0 0,40 h 50 a 20,20 1 0,0 0,-40 a 10,10 1 0,0 -15,-10 a 15,15 1 0,0 -35,10 z" fill="white" stroke="black"/>
+        </svg>
+        </button>
+</body>
+</html>
+
