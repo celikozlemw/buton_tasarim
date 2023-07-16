@@ -1,2 +1,2 @@
-svg için: https://www.svgrepo.com/
+svg -Vectors Collection(Editing & Remixing): https://www.svgrepo.com/
  
